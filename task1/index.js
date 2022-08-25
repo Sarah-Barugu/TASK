@@ -8,6 +8,7 @@ for (let index = 1; index <= 15; index++) {
     document.body.appendChild(h1)
   } //create an else statement
   else{
+    // creating an element in js.
     const h1 = document.createElement("h1")
     h1.innerHTML = `${index} is even`
     document.body.appendChild(h1)
